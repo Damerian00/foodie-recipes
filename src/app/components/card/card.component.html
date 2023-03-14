@@ -1,0 +1,20 @@
+<div class="recipe-card">
+    <h3>{{cardObject.title}}</h3>
+    <p>{{cardObject.descr}}</p>
+    <img [src]="cardObject.image" />
+    <div class="buttons">
+    <button (click)="quickView()">Quick View</button>
+    <button (click)="fullView()" routerLink="/recipe" routerLinkActive="active">Full View</button>
+    </div>
+    <div class="quickView" *ngIf="enableQuickView">
+        <h4>Ingredients: </h4>
+        <div *ngFor="let ingredient of cardObject.recipe.ingredients let i = index">
+            <p>{{i + 1}}: {{ingredient}}</p>
+        </div>
+        <h4>Directions: </h4>
+        <div *ngFor="let direction of cardObject.recipe.directions let i = index">
+            <p>{{i + 1}}: {{direction}}</p>
+        </div>
+        <button (click)="quickView()">Close</button> 
+    </div>
+    </div>

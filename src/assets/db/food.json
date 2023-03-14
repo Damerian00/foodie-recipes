@@ -1,0 +1,46 @@
+[
+    {
+        "title" : "Quinoa Pancakes",
+        "descr" : "Very tasty and filling",
+        "recipe" : {
+            "ingredients" : ["1 cup cooked quinoa","2 tsp baking powder", "1 tsp cinnamon", "3/4 cup quinoa flour", "1 tsp vanilla extract", "2 eggs (can be egg substitutes)", "1 cup milk (can be plant based)", "1 tbsp coconut oil", "1 tbsp honey"],
+            "directions" : ["Mix all ingredients together.", "Add appropriate portions to a hot pan.", "Cook for a few minutes on one side then flip over and do the same for the other until both sides are golden brown.", "Set aside to cool while you repeat process until all batter is gone."],
+            "images": ["../../../assets/images/pancakes/pc1.jpg","../../../assets/images/pancakes/pc2.jpg","../../../assets/images/pancakes/pc3.jpg","../../../assets/images/pancakes/pc4.jpg"]
+        },
+        "image" : "../../../assets/images/pancakes/pancakes.jpg"       
+    },
+    {
+        "title" : "Quinoa Nut Cookies",
+        "descr" : "Nutty and Gluten Free",
+        "recipe" : {
+            "ingredients" : ["3 cups of quinoa flour","1 cup of honey", "1 tsp baking soda", "1 tsp baking powder","1 cup coconut oil (or any oil of your choosing)", "1 tsp vanilla extract", "1/2 tsp cinnamon", "2 eggs (can use egg substitutes", "1 cup finely chopped nuts", "variable amount of milk (can use non dairy milks as well)"],
+            "directions" : ["Preheat oven to 375°F","Stir in all ingredients into a bowl.", "Slowly add in milk until you reach desired consistency", "Spoon out dough on to parchment or another nonstick baking mats.", "Bake in oven for about 10 mins", "Repeat steps 4 and 5 until all the dough is used up."],
+            "images": ["../../../assets/images/cookies/ck1.jpg", "../../../assets/images/cookies/ck2.jpg","../../../assets/images/cookies/ck3.jpg","../../../assets/images/cookies/ck4.jpg"]
+        },
+        "image" : "../../../assets/images/cookies/cookies.jpg"       
+    },
+    {
+        "title" : "Chocolate Quinoa Cake",
+        "descr" : "Very dense, moist, and filling",
+        "recipe" : {
+            "ingredients" : ["2 cups cooked quinoa", "2 tbspn of dairy-free milk","4 eggs (or egg substitutes", "1 cup of honey", "3/4 cup coconut oil", "1 cup cocoa powder", "1 tsp baking soda ", "1 1/2 tsp baking powder"],
+            "directions" : ["Preheat the oven to 325°F and grease two 8-inch round cake pans; line the bottoms of the pans with parchment paper.", "In a blender combine all your wet ingredients including the quinoa and blend until it's a smooth consistency.", "In a medium bowl, whisk together cocoa, baking powder, and baking soda.", "If mixture is too big for your blender combine wet and dry ingredients into a bowl mixing well add more milk if needed to reach correct cake batter texture.", "Divide the batter evenly between the pans and bake for 40-45 minutes or until a knife inserted in the center comes out clean."],
+            "images": ["../../../assets/images/cakes/cqc2.jpg","../../../assets/images/cakes/cqc4.jpg","../../../assets/images/cakes/cqc1.jpg", "../../../assets/images/cakes/cqc3.jpg"]
+        },
+        "image" : "../../../assets/images/cakes/cquinoacake.jpg"
+    },
+    {
+        "title" : "Banana Nut Quinoa Bread",
+        "descr" : "Vegan Friendly",
+        "recipe" : {
+            "ingredients" : ["3 ripe bananas", "1/4 cup Coconut Oil", "!/2 cup honey", "1 tsp vanilla extract", "1/2 cup quinoa flour", "1 cup rolled oats", "1 tsp baking soda", "1/2 cup cooked quinoa", "1/4 cup dairy-free milk"],
+            "directions" : ["Preheat the oven to 350°F and get out two medium sized mixing bowls.", "Mash bananas into bowl 1 and then mix in oil,honey, and vanilla", "Mix into bowl 2 quinoa, flour, oats, and baking soda", "Mix in contents from bowl 2 into bowl 1 and slowly add in milk until the misture becomes easier to mix (might need to add more or less milk based on preference)", "Pour mixture into desired pan for baking and bake in the over for 45-50mins.", "Check for doneness with a clean knife inserted into the center."],
+            "images": ["../../../assets/images/breads/bqb1.jpg","../../../assets/images/breads/bqb2.jpg","../../../assets/images/breads/bqb3.jpg","../../../assets/images/breads/bqb4.jpg"]
+        },
+        "image" : "../../../assets/images/breads/bbread.jpg"       
+    }
+
+
+
+
+]

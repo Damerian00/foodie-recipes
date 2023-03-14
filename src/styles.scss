@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+}
+aside{
+    flex:1;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.recipe-card{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    padding:1em;
+    margin: 1em;
+    h3{
+        text-align: center;
+    }
+}

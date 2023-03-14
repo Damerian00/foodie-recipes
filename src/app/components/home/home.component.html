@@ -1,0 +1,21 @@
+<div class="container">
+    <aside>
+        <fdheader [title]="headers[0]" fontSize='2.5'></fdheader>
+        <main></main>
+        <footer></footer>
+        <hr>
+    </aside>
+    <main>
+        <article>
+            <fdheader [title]="headers[1]" fontSize='1.5'></fdheader>
+            <hr>
+        </article>
+        <article>
+            <fdheader [title]="headers[2]" fontSize='1.0'></fdheader>
+            <div class="card-container">
+                <card *ngFor="let obj of tempObj let i = index" [cardObject] = "obj"></card>
+            </div>
+        </article>
+    </main>
+</div>
+<footer></footer>
