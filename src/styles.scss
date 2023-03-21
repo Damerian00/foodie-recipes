@@ -3,9 +3,17 @@
     margin:0;
     padding:0;
 }
+body{
+    min-width:286px;
+}
+#container{
+    display:flex;
+    flex-direction: column;   
+}
 .container{
     display:flex;
     flex-direction: column;
+    
 }
 aside{
     flex:1;
@@ -15,6 +23,8 @@ main{
     display: flex;
     flex:1;
     flex-direction: column;
+    color: rgb(109, 109, 109);
+    background-color: rgb(255, 255, 255);
 }
 .card-container{
     display: flex;
@@ -30,4 +40,40 @@ main{
     h3{
         text-align: center;
     }
+}
+
+@media (min-width:768px){
+   .container{
+    flex-direction: row;
+    max-height: 800px;
+   }
+   aside{
+    height: auto;
+    flex-grow: 1;
+   }
+   main{
+    overflow-y: scroll;
+    flex-grow: 2;
+   }
+   .card-container{
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.recipe-card{
+   width:10em;
+   height:15em;
+   justify-content: space-between;
+}
+}
+
+@media (min-width:1196px){
+    body{
+      
+    }
+    #container{
+    flex-direction: row;
+  }  
+  
 }

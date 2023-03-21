@@ -1,15 +1,74 @@
+
 aside{
-    background-image: url('../../../assets/images/chickenBG.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:10vh;
-    color:white;
-    text-align: center;
-    main{
+    background-image: url('../../../assets/images/overlay.png'), url('../../../assets/images/chickenBG.jpg');
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-position: center, center;
+    background-attachment: scroll, scroll;
+    position: relative;
+    left:auto;
+    height: 100%;
+    color:rgb(0, 0, 0);
+    text-align: right;
+    top:auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding:4.5em 0;
+    div{
         padding:1em;
+        p{
+            background-color: rgba(139, 139, 139, 0.466);
+            background-size: contain;
+        }
     }
 }
 article{
-    padding:1em;
+    
+    padding:0 4em;
+    div>p{
+        text-align: left;
+    }
+}
+.desktop{
+display: none;
+}
+.mobile{
+    display: flex;
+    background-color: black;
+    width: 100%;
+   
+}
+
+@media (min-width:768px){
+    .desktop{
+        position: absolute;
+       display: flex;
+    }
+    .mobile{
+        display: none;
+    }
+  
+}
+@media (min-width:1196px){
+    aside{
+        position: fixed;
+        padding: 6em 3em 3em 3em;
+		width: 30%;
+        div{
+            margin: 5em auto;
+        }
+        
+    }
+    main{
+        margin-left: 30%;
+        max-width: none;
+        padding: 6em 3em 3em 3em;
+        width: calc(100% - 30%);
+    }
+    .desktop{
+        position: relative;
+        
+    }
+    
 }

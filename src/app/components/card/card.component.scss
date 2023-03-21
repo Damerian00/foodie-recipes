@@ -1,12 +1,35 @@
+.recipe-card{
+    p{
+        margin:.2em;
+    }
+}
 img{
     width:100%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    button{
+        padding:2px;
+        &:hover{
+            background-color: rgb(97, 97, 97);
+            color: white;
+            border: 2px black inset;
+           
+        }
+    }
 }
 .quickView{
     border: 1px black inset;
     position: absolute;
-    background-color: rgb(148, 147, 147);
+    background-color: rgb(102, 102, 102);
     padding: .5em;
     border-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(28, 110, 164);
+    h4{
+        text-align: center;
+    }
     button{
         border-radius: 15px;
         margin: .2em;
@@ -14,7 +37,31 @@ img{
         position: absolute;
         right:2px;
         &:hover{
-            background-color: rgb(148, 147, 147);
+            background-color: rgb(102, 102, 102);
         }
     }
+}
+
+@media (min-width:768px){
+    .recipe-card{
+        width:15em;
+        
+    }
+    
+}
+
+@media (min-width:956px){
+    .recipe-card{
+        width:20em;
+        height: 20em;
+    }
+    
+}
+
+@media (min-width:1196px){
+    .recipe-card{
+        width:25em;
+        height: 25em;
+    }
+    
 }
