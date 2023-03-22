@@ -1,15 +1,19 @@
 <a routerLink="" routerLinkActive="active">Home Page</a>
 <h1>{{recipe.title}}</h1>
 <h3>{{recipe.descr}}</h3>
-<h4>Ingredients: </h4>
-<div *ngFor="let ingredient of recipe.recipe.ingredients let i = index">
-    <p>{{i + 1}}: {{ingredient}}</p>
-</div>
-<h4>Directions: </h4>
-<div *ngFor="let direction of recipe.recipe.directions let i = index">
-    <p>{{i + 1}}: {{direction}}</p>
-</div>
-<h4>Image Gallery:</h4>
-<div class="image-container" *ngFor="let image of recipe.recipe.images">
-    <img [src]="image" />
-</div>
+<main>
+    <h4>Ingredients: </h4>
+    <div *ngFor="let ingredient of recipe.recipe.ingredients let i = index">
+        <p>{{i + 1}}: {{ingredient}}</p>
+    </div>
+    <h4>Directions: </h4>
+    <div *ngFor="let direction of recipe.recipe.directions let i = index">
+        <p>{{i + 1}}: {{direction}}</p>
+    </div>
+</main>
+<aside>
+    <h4>Image Gallery:</h4>
+    <div class="image-container">
+        <img *ngFor="let image of recipe.recipe.images" [src]="image" />
+    </div>
+</aside>
